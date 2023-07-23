@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Admin Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <nav class="responsive-navbar">
+          <div class="nav__menu">
+            <ul class="nav__list">
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-home-alt icon active"></i>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-news icon active"></i>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-contact icon active"></i>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-user icon active"></i>
+                </a>
+              </li>
+              <li class="nav__item">
+                <a href="#" class="nav__link">
+                  <i class="bx bx-search icon active"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <a class="notofication">
+            <i class="bx bx-bell icon"></i>
+          </a>
+        </nav>
+      </header>
+      <nav class="sidebar close">
+        <header>
+          <div class="image-text">
+            <span class="image">
+              <img src="./assets/logo.jpg" />
+            </span>
+            <div class="text header-text">
+              <span class="name">Admin</span>
+            </div>
+          </div>
+          <div class="image-text search">
+            <i class="bx bx-search icon"></i>
+            <input type="search" placeholder="Search" />
+          </div>
+        </header>
+        <div class="menu-bar">
+          <div class="menu">
+            <ul class="menu-items">
+              <li class="item">
+                <a href="" class="nav-link">
+                  <i class="bx bx-home-alt icon"></i>
+                  <span class="text menu-text">Home</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="nav-link">
+                  <i class="bx bx-news icon"></i>
+                  <span class="text menu-text">News</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="nav-link">
+                  <i class="bx bxs-down-arrow icon"></i>
+                  <span class="text menu-text">Like</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="nav-link">
+                  <i class="bx bx-user icon"></i>
+                  <span class="text menu-text">Profile</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="menu last">
+            <ul class="menu-items">
+              <li class="item">
+                <a href="" class="nav-link">
+                  <i class="bx bx-bell icon"></i>
+                  <span class="text menu-text">Notification</span>
+                </a>
+              </li>
+              <li class="item">
+                <a href="" class="nav-link">
+                  <i class="bx bx-log-out icon"></i>
+                  <span class="text menu-text">Log out</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="profile">
+        <div class="profile-div">
+          <span class="profile-picture">
+            <img src="./assets/img.jpg" />
+          </span>
+          <div class="name">
+            <span class="large">Hi Mike,</span>
+            <span class="text">welcome back</span>
+          </div>
+        </div>
+        <div class="today">
+          <span class="title">Today</span>
+          <ul>
+            <li class="sub-section">
+              <p class="title bold">$19,892</p>
+              <p class="subheading-small">Account balance</p>
+            </li>
+            <div class="responsive-div">
+              <li class="sub-section">
+                <p class="title">$4,000</p>
+                <p class="subheading-small">Year-to-Date contributions</p>
+              </li>
+              <li class="sub-section">
+                <p class="title">$1,892</p>
+                <p class="subheading-small">Total Interset</p>
+              </li>
+            </div>
+          </ul>
+          <button class="btn">I want to</button>
+        </div>
+        <div class="transaction">
+          <h3 class="medium-heading">Recent transaction</h3>
+          <div class="details">
+            <p class="subheading-small">2020-08-07</p>
+            <p class="info">Withdrawal transfered to Bank XXXX1</p>
+          </div>
+          <div class="details">
+            <p class="subheading-small">2020-07-21</p>
+            <p class="info">Withdrawal transfered to Bank XXXX1</p>
+          </div>
+          <div class="details">
+            <p class="subheading-small">2020-07-16</p>
+            <p class="info">Withdrawal transfered to Bank XXXX1</p>
+          </div>
+        </div>
+      </div>
+      <div class="mid-section">
+        <p class="heading">Retirement Income</p>
+        <p class="sub-heading">Starting Year 2056</p>
+        <div class="header-div">
+          <div class="goal">
+            <p class="measure">$30,000</p>
+            <p class="subtitle-medium">My Goal</p>
+            <div class="divider"></div>
+          </div>
+          <div class="sub-goals">
+            <div class="sub-goal">
+              <p class="measure">59%</p>
+              <p class="subtitle-medium">Goal Achieved</p>
+              <div class="divider"></div>
+            </div>
+            <div class="sub-goal">
+              <p class="measure">$300</p>
+              <p class="subtitle-medium">Est Monthly income</p>
+              <div class="divider"></div>
+            </div>
+          </div>
+        </div>
+        <div class="middle-div">
+          <p class="title">Contribution Overtime</p>
+          <div id="chart"></div>
+        </div>
+        <div class="final-div">
+          <p class="title">How do I compare to my peers?</p>
+          <p class="sub-title">
+            These numbers represent current goal achievements
+          </p>
+          <div class="final-container">
+            <div class="left-div">
+              <div class="left-box">
+                <span class="key">Age:</span>
+                <span class="point">Under 30</span>
+                <span><i class="bx bxs-down-arrow icon xsmall"></i></span>
+                <div class="divider black"></div>
+              </div>
+              <div class="left-box">
+                <span class="key">Salary:</span>
+                <span class="point">K 20 - K 30</span>
+                <span><i class="bx bxs-down-arrow icon xsmall"></i></span>
+                <div class="divider black"></div>
+              </div>
+              <div class="left-box">
+                <span class="key">Gender:</span>
+                <span class="point">Male</span>
+                <span><i class="bx bxs-down-arrow icon xsmall"></i></span>
+              </div>
+            </div>
+            <div class="right-div">
+              <div class="loader">
+                <div class="circuler-progress first">
+                  <span class="progress-value">78%</span>
+                </div>
+                <div class="subtitle-medium">avarage</div>
+              </div>
+              <div class="loader">
+                <div class="circuler-progress second">
+                  <span class="progress-value">95%</span>
+                </div>
+                <div class="subtitle-medium">Top</div>
+              </div>
+              <div class="loader">
+                <div class="circuler-progress third">
+                  <span class="progress-value">59%</span>
+                </div>
+                <div class="subtitle-medium">Me</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-section">
+        <div class="upper-div">
+          <h3 class="medium-heading">Retirement stategies</h3>
+          <div class="box">
+            <p class="subtitle-medium">Employee contribution</p>
+            <div class="slider-box">
+              <div class="slider">
+                <input
+                  type="range"
+                  max="100"
+                  min="0"
+                  value="0"
+                  oninput="firstSlider.innerText = `${this.value}%`"
+                />
+              </div>
+              <div class="slider-value" id="firstSlider">0%</div>
+            </div>
+          </div>
+          <div class="box">
+            <p class="subtitle-medium">Retirement Age</p>
+            <div class="slider-box">
+              <div class="slider">
+                <input
+                  type="range"
+                  max="100"
+                  min="0"
+                  value="0"
+                  oninput="secondSlider.innerText = `${this.value}`"
+                />
+              </div>
+              <div class="slider-value" id="secondSlider">0</div>
+            </div>
+          </div>
+          <hr class="divider" />
+          <div class="lower-box">
+            <p class="info">Employer contribution</p>
+            <p class="info">8.4%</p>
+          </div>
+          <div class="lower-box">
+            <p class="info">interest rate</p>
+            <p class="info">5%</p>
+          </div>
+          <button class="btn update">Update</button>
+          <p class="help">
+            View help docs
+            <i class="bx bx-chevron-right"></i>
+          </p>
+        </div>
+        <div class="lower-div">
+          <p class="subtitle-medium">Are you considering a</p>
+          <p class="title">Housing Advance?</p>
+          <p class="subheading-small">limited time reduced interest</p>
+          <p class="help lower">
+            learn more <i class="bx bx-chevron-right"></i>
+          </p>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
